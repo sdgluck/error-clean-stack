@@ -2,6 +2,10 @@
 
 > errors with [clean stacks](https://github.com/sindresorhus/clean-stack)
 
+Made with ❤ at [@outlandish](http://www.twitter.com/outlandish)
+
+<a href="http://badge.fury.io/js/error-clean-stack"><img alt="npm version" src="https://badge.fury.io/js/error-clean-stack.svg"></a>
+
 ## Install
 
 ```sh
