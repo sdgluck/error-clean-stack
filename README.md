@@ -44,14 +44,19 @@ URIError
 ### `examples/error.js`
 
 ```js
-import {Error} from 'error-clean-stack'
+const {Error} = require('error-clean-stack')
 
 throw new Error()
 ```
 
 ```sh
 $ node examples/error.js
+C:\xampp\htdocs\error-clean-stack\examples\error.js:3
+throw new Error()
+^
 
+Error
+  at Object.<anonymous> (C:/xampp/htdocs/error-clean-stack/examples/error.js:3:7)
 ```
 
 ## Contributing
