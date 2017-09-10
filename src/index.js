@@ -2,7 +2,7 @@
 
 function cleanStack (err) {
   return require('clean-stack')(err)
-    .replace(/(at.*)\n/, '') // bump first call site
+    .replace(/ {4}at.*\n/, '') // bump first call site
 }
 
 class CleanError extends Error {

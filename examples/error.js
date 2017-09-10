@@ -1,3 +1,10 @@
 const {Error} = require('../')
 
-throw new Error()
+function a () {
+  function b () {
+    throw new Error()
+  }
+  b()
+}
+
+a()

@@ -51,12 +51,14 @@ throw new Error()
 
 ```sh
 $ node examples/error.js
-C:\xampp\htdocs\error-clean-stack\examples\error.js:3
-throw new Error()
-^
+C:\xampp\htdocs\error-clean-stack\examples\error.js:5
+    throw new Error()
+    ^
 
 Error
-  at Object.<anonymous> (C:/xampp/htdocs/error-clean-stack/examples/error.js:3:7)
+    at b (C:/xampp/htdocs/error-clean-stack/examples/error.js:5:11)
+    at a (C:/xampp/htdocs/error-clean-stack/examples/error.js:7:3)
+    at Object.<anonymous> (C:/xampp/htdocs/error-clean-stack/examples/error.js:10:1)
 ```
 
 ## Contributing
