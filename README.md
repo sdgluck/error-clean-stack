@@ -46,7 +46,14 @@ URIError
 ```js
 const {Error} = require('error-clean-stack')
 
-throw new Error()
+function a () {
+  function b () {
+    throw new Error()
+  }
+  b()
+}
+
+a()
 ```
 
 ```sh
